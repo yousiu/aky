@@ -1,0 +1,9 @@
+<Context>
+   <Resource name="ds/mariadb/library" 
+             type="javax.sql.DataSource"
+             driverClassName="org.mariadb.jdbc.Driver"
+             url="jdbc:mariadb://localhost/library?passwordCharacterEncoding=utf-8"
+             username="root"
+             password="MariaDB"
+   />
+</Context>
